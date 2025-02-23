@@ -10,7 +10,7 @@ Given the SMILES strings of two drugs, predict their interaction type. This proj
  <li>first from the graph representation of the drugs, we use two layers Graph Convolutional networks on the two drugs, sharing the same weights
  then classification is performed using a fully connected layer.</li>
  <li>we use the the GCN layers that were trained in the previous step to get a representation of the drugs. Then using
- the The <a href="relational graph convolutional operator">https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.nn.conv.RGCNConv.html</a>>
+ the The <a href="https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.nn.conv.RGCNConv.html">relational graph convolutional operator</a>
  from the "Modeling Relational Data with Graph Convolutional Networks" paper is used then to classify the edges.</li>
  </ul>
 
