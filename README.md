@@ -14,3 +14,6 @@ Given the SMILES strings of two drugs, predict their interaction type. This proj
  from the "Modeling Relational Data with Graph Convolutional Networks" paper is used then to classify the edges.</li>
  </ul>
 
+## Notes
+The code is a distillation of the code of a jupyter notebook. The notebook used to call back and forth the saved files in a google drive folder, in order to keep track of the two step approach.
+For this reason some of the variables might be ranamed more than once.
