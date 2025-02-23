@@ -16,4 +16,4 @@ Given the SMILES strings of two drugs, predict their interaction type. This proj
 
 ## Notes
 The code is a distillation of the code of a jupyter notebook. The notebook used to call back and forth the saved files in a google drive folder, in order to keep track of the two step approach.
-For this reason some of the variables might be ranamed more than once.
+For this reason some of the variables might be renamed more than once.
